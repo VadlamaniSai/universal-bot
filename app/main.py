@@ -30,5 +30,5 @@ def chat(payload: UserMessage):
         "user_id": payload.user_id,
         "received": payload.message,
         "intent": intent,
-        "response": result["response"]
+        "response": result
     }
